@@ -3,22 +3,91 @@
 <head>
 
     <title>Schacht Nulland</title>
-</head>
-<body>
-    <nav>
-        Menu:<br />
-             <ul>
-                 <li><a href='./subpage1.html'><button>Nederlands Mijnmuseum</button></a></li>
-                 <li><a href='../index.html'><button>Mijnverleden</button></a></li>
-                 <li><a href='./subpage3.html'><button>Steenkolenmijn Valkenburg</button></a></li>
-                 <li><a href='./subpage4.html'><button>Mijnsteenberg Heerlen</button></a></li>
+    <style>
+        body {
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      opacity: 75%;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+        }
+    body {background-image: url('./images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    Background-size: cover;
+    }
+    p.info {
+      float:left
+    
+    }
+    p.info2 {
+      float:left 
+    }
+    </style>
+    </head>
+    <body bgcolor="grey"> 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+            <a href='../index.html'>mainpagina</a>
+            <a href='./html/subpage1.html'>Nederlands Mijnmuseum</a>
+        <a href='./subpage3.html'>Steenkolenmijn Valkenburg</a>
+        <a href='./subpage4.html'>Mijnsteenberg heerlen</a>
+          </div>
+          
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+    
 
                  <h2>Schacht Nulland</h2>
 
                  <h3>
                      De Schacht Nulland behoorde tot de voormalige Domaniale Mijn in Kerkrade. <br />
                      De oudste steenkolenmijn van Nederland. Vanaf 2006 is het een dependance van het Discovery Museum, Museumplein Limburg.
-                     <br />Oud-koempels van de Domaniale Mijn hebben de stichting ‘Koempels van de Domaniale’ opgericht.
+                     <br />Oud-koempels van de Domaniale Mijn hebben de stichting ï¿½Koempels van de Domanialeï¿½ opgericht.
                  </h3>
 
                  <img src="https://www.visitzuidlimburg.nl/media/870063/schacht-nulland-kerkrade.jpg?anchor=center&mode=crop&quality=80&width=800&height=400&rnd=132373816370000000">
