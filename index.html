@@ -1,100 +1,91 @@
 <!doctype=html> 					
 								
 <head>
-    
-    <title>Mijnverleden</title> 	
-    <style>
-        body {
-      font-family: "Lato", sans-serif;
-    }
-    
-    .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-      opacity: 75%;
-    }
-    
-    .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
-    
-    .sidenav a:hover {
-      color: #f1f1f1;
-    }
-    
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-    }
-    
-    @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-        }
-    body {background-image: url('./images/wallpaper.jpg');
-    background-repeat: no-repeat;
-    Background-size: cover;
-    }
-    p.info {
-      float:left
-    
-    }
-    p.info2 {
-      float:left 
-    }
-    img {
-      float: right;
-    }
+  <style>
     body {
-      background-image: url('./images/mijnberingen.jpg');
-      background-repeat: no-repeat;
-      Background-size: cover;
+  font-family: "Lato", sans-serif;
 }
-    </style>
-    </head>
-    <body bgcolor="grey"> 
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href='./html/subpage1.html'>Nederlands Mijnmuseum</a>
-            <a href='./html/subpage2.html'>Mijnverleden Kerkrade</a>
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    }
+body {background-image: url('./images/wallpaper.jpg');
+background-repeat: no-repeat;
+Background-size: cover;
+}
+p.info {
+  float:left
+
+}
+p.info2 {
+  float:left 
+}
+</style>
+</head>
+<body bgcolor="grey"> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href='./html/subpage1.html'>Nederlands Mijmuseum</a>
+        <a href="./html/subpage2.html">Mijnverleden Kerkrade</a>
         <a href='./html/subpage3.html'>Mijnverleden Valkenburg</a>
-        <a href='./html/subpage4.html'>Mijnverleden Heerlen</a>
+        <a href='./html/subpage4.html'>Mijnverleden heerlen</a>
         <a href='./html/subpage5.html'>Mijnverleden Brunssum</a>
       </div>
-          
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-          
-          <script>
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
-            <h1 style="font-size:4vw;">Mijnverleden</h1>
-            <img src="./images/nederlands-mijnmuseum.jpg" alt="mijnwerkers" style="width:500px;height:520px;margin-left:15px">
-            <p style="font-size:2vw;">Mijnbouw was voor Limburg en de Limburgers veel meer dan het zware, stoffige en gevaarlijke werk diep onder de grond.<br/>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+ 
+<h1 style="font-size:4vw;">Mijnverleden</h1>
+<img src="./images/nederlands-mijnmuseum.jpg" alt="mijnwerkers"depth="50px"height="200px">
+<h2>Mijnbouw was voor Limburg en de Limburgers veel meer dan het zware, stoffige en gevaarlijke werk diep onder de grond.<br/>
             De mijnbouw heeft tussen 1900 en 1974 een zeer duidelijk stempel gedrukt op eigenlijk alle aspecten van de Limburgse samenleving.<br/>
-            Deze stempel kan je nu nog zien in Limburg en bij sommige Limburgers zelf.</p>
+            Deze stempel kan je nu nog zien in Limburg en bij sommige Limburgers zelf.</h2>
 
 
-</body>							
+</body>			
 </html> 
